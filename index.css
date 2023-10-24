@@ -1,0 +1,12 @@
+body { left: 3%; top: 3%; position: absolute;}
+.espaco {height: auto; width: 100%;}
+.lupa { position: relative; left: 10px;height: 50px; width: 50px; background-color: white; border: none; vertical-align:middle;}
+.img_lupa {height: 50px; width: 50px;}
+.alinhamento {text-align: center;}
+#introdução {font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#p {font-size: 35px; font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;}
+#numero {font-size: 30px; border-radius: 20px; box-shadow: 5px 5px 10px rgb(56, 52, 52);}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+/*talves não funcione no firefox*/
+input[type=number] {-moz-appearance: textfield;}
