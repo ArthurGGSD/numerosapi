@@ -1,3 +1,12 @@
+var button = document.getElementById("btn");
+button.addEventListener('keypress', function(event){
+  if(event.keyCode == 13) {
+    event.preventDefault();
+    busca();
+  }
+});
+
+
 document.getElementById("form").onsubmit=function() {
     return false;
 }
